@@ -1,0 +1,192 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+}
+@font-face {
+    src: url('images/molle.regular\ \(1\).woff') format('woff');
+    font-family: molle;}
+
+    #infinity{
+      background:linear-gradient(rgb(255, 0, 0),rgb(0, 128, 0),rgb(0, 0, 255));
+        padding: 5px 5px;
+        border-radius: 3px;
+        border: none;
+        color: white;
+        margin-right: 9px;
+        margin-top: 6px;
+        
+    }
+    #custom{
+        background-color: seagreen;
+        padding: 5px 5px;
+        border-radius: 3px;
+        border: none;
+        color: white;
+        margin-right: 9px;
+        
+    }
+
+    #customColor{
+        /* width: 50px; */
+       
+       
+          padding: 5px 5px;
+          border-radius: 3px;
+          border: none;
+          color: white;
+          margin-left: 0px;
+          display: inline;
+          color: #000;
+      }
+
+.container{
+    width: 1000px;
+    margin: 5rem auto;
+    text-align: center;
+    color: aliceblue;
+    
+}
+h1{
+    margin-bottom: 1rem;
+    /* font-family: molle; */
+   
+}
+#enterCity{
+    width: 180px;
+    height: 18px;
+    margin-left: 7px;
+    padding: 5px 5px;
+    font-size: 11px;
+    border-radius: 6px;
+    border: none;
+    color: #000;
+   
+}
+#pushWeather {
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+#getWeather{
+  
+    margin-left: 7px;
+    padding: 5px 5px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+    /* background-color: rgb(255, 115, 0); */
+    background-color: #fff;
+    color: #000;
+}
+#getWeather:hover{
+    background-color: green;
+}
+/* background css */
+#container{
+    width: 450px;
+    /* height: 40rem; */
+     text-align: center;
+     /* background-color: #161F32; */
+     background-color:#a900a6;
+    color: #fff;
+    margin: auto;
+    margin-top: 10px;
+    
+    box-shadow: 5px;
+    border-radius: 5px;
+      position: relative;
+      /* overflow:hidden; */
+    
+     /* font-family: molle; */
+     box-shadow:  5px ;
+   }
+   .weather{
+   width: 80%;
+   padding: 5px 2px;
+   /* background-color:rgba(0, 128, 128, 0.28); */
+   background-color: #23a2ec43;
+  border-radius: 5px;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 5rem;
+   margin-left: 9%;
+   box-shadow: 0px 2px 15px 2px;
+   
+   }
+
+   .jui {
+    background-color: #4d204c9e;
+   display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+ .jui code{
+    font-family: molle; 
+    font-weight: bold;
+    text-shadow: 2px 2px red;
+    -webkit-text-stroke: 0.1px red;
+    color: white;
+   
+    font-size: 18px;
+    opacity: 0.09;
+ /* color:#ffffffb8;  */
+ /* text-shadow: 5px 2px #ffee55; */
+ margin-top: 5px;
+    
+  
+
+}
+
+/* custom color csss */
+.chngBg .inputGroup .newColorInput{
+    background-color: #fff;
+    width: 300px;
+    height: 20px;
+    border-radius:  25px 0 0 25px ;
+    border: none;
+    padding: 0 5px ;
+    outline: none;
+    cursor: pointer;
+    font-size: 11px;
+    box-sizing: border-box;
+    padding-right: 5px;
+   
+  
+}
+
+
+.chngBg .inputGroup .btn{
+   
+    color: #fff;
+    width: 90px;
+    height: 20px;
+    border-radius: 0 18px 18px 0;
+    margin-left: -5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color:teal;
+    
+}
+.chngBg .inputGroup .btn:hover{
+    background-color: green;
+}
+h3{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    /* font-weight: 500; */
+    
+}
+h2{
+    color:#a900a6;
+    /* font-family: "Rubik Lines", system-ui;
+    font-weight: 100; */
+    /* font-style: normal; */
+}
