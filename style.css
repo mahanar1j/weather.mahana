@@ -165,7 +165,7 @@ h1{
    
     color: #fff;
     width: 90px;
-    height: 20px;
+    height: 22px;
     border-radius: 0 18px 18px 0;
     margin-left: -3.3px;
     border: none;
@@ -185,7 +185,7 @@ h3{
     
 }
 h2{
-    color:#a900a6;
+    color:#fff;
     /* font-family: "Rubik Lines", system-ui;
     font-weight: 100; */
     /* font-style: normal; */
