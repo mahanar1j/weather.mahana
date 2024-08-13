@@ -86,7 +86,8 @@ h1{
     color: #000;
 }
 #getWeather:hover{
-    background-color: green;
+    background-color: firebrick;
+    color: white;
 }
 /* background css */
 #container{
