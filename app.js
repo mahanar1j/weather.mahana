@@ -85,6 +85,17 @@ return `rgb(${red},${green},${blue})`
 const result =genaratedRgbColor()
 
 
+// sound efect
+const WeatherBtn=document.getElementById('getWeather');
+const getWeatherAudio=document.getElementById('getWeatherAudio');
+WeatherBtn.addEventListener('click',function(){
+playAudio();
+});
+function playAudio(){
+getWeatherAudio.play()
+}
+
+
 
 
 
